@@ -1,5 +1,15 @@
 # vuetify-starter
 
+![Vuetify-Starter Screenshot](/Screenshot.png "Screenshot of the initial page")
+
+## Boilerplate including
+* VueJs
+* VueRouter
+* VueX
+* Vuetify
+
+**Note:** the version Tag is managed via Package.json
+
 ## Project setup
 ```
 npm install
