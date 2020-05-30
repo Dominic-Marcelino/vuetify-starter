@@ -1,5 +1,5 @@
 import Home from '@/views/Home.vue';
-import Version from '@/views/Version.vue';
+import Versions from '@/views/Versions.vue';
 
 const routes = [
   {
@@ -8,9 +8,9 @@ const routes = [
     component: Home,
   },
   {
-    path: '/version',
-    name: 'Version',
-    component: Version,
+    path: '/versions',
+    name: 'Versions',
+    component: Versions,
   },
   {
     path: '/about',

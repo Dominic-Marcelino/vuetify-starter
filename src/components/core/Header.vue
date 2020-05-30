@@ -67,7 +67,7 @@
       <v-btn
         class="ma-2"
         outlined
-        :to="{ name: 'Version'}"
+        :to="{ name: 'Versions'}"
         exact
       >
         {{ appVersion }}
@@ -105,9 +105,9 @@ export default {
           routeName: 'About',
         },
         {
-          title: 'Version',
+          title: 'Versions',
           icon: 'mdi-information',
-          routeName: 'Version',
+          routeName: 'Versions',
         },
       ],
     };
